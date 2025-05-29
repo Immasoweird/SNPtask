@@ -1,0 +1,14 @@
+.tour-cards__container {
+
+}
+
+.tour-cards__header {
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-cards__title {
+    
+}

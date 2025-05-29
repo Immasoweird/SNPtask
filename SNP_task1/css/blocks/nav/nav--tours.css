@@ -1,0 +1,4 @@
+.nav--tours {
+    gap: 30px;
+    flex-direction: row;
+}

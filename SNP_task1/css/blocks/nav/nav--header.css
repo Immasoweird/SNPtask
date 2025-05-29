@@ -1,0 +1,12 @@
+.nav--header {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nav--header .nav__item a:hover,
+.nav--header .nav__item a:focus {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}

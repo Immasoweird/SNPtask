@@ -1,0 +1,23 @@
+.header {
+  width: 1920px;
+  height: 88.01px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 214px;
+}
+
+.header__content {
+  width: 1168.01px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header__logo {
+  width: 182px;
+  height: 32px;
+}
+

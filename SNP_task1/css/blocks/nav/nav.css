@@ -1,0 +1,13 @@
+.nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    gap: 50px;    
+}
+
+.nav__item {
+    gap: 6px;
+}

@@ -1,0 +1,10 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #1B1F2B;
+  
+    --font-main: 'Roboto', sans-serif;
+  
+    --text-title: 96px;
+    --text-subtitle: 20px;
+    --text-button: 17px;
+  }

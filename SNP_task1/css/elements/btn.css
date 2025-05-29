@@ -1,0 +1,7 @@
+.btn {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  color: #1b1f2b;
+  word-wrap: break-word;
+}

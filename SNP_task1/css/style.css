@@ -1,0 +1,145 @@
+@import './blocks/header/header.css';
+@import './blocks/nav/nav.css';
+@import './blocks/nav/nav--header.css';
+@import './blocks/nav/nav--tours.css';
+@import './blocks/hero/hero.css';
+
+@import url(blocks/tour-cards/tour-cards.css);
+
+@import './elements/btn.css';
+
+@import './utils/reset.css';
+@import './utils/typography.css';
+
+
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  gap: 135px;
+}
+
+.page-container {
+  background-image: url(../img/header-img.png);
+  max-width: 1920px;
+  width: 100%;
+  height: 831px;
+  margin: 0 auto;
+
+}
+
+
+
+
+/* TOUR_CARDS */
+
+.tours {
+  flex-direction: column;
+  margin: 0px auto;
+  justify-content: center;
+  display: flex;
+  width: 1170px;
+  height: 1334px;
+  background-color: white;
+
+}
+
+
+
+.select-tour {
+  justify-self: center;
+}
+
+
+.text_container {
+  gap: 35px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cards_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 30px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.tour-card {
+  width: 370px;
+  height: 531px;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tour-card__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 16px;
+  top: 0;
+  left: 0;
+
+}
+
+
+.btn-more_info {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  padding: 50px;
+  bottom: 0px;
+  gap: 15px;
+  color: white;
+}
+
+.arrow_bt {
+  filter: brightness(0) invert(1);
+  width: 24px;
+  height: 26px;
+}
+
+
+.text_container2 {
+  margin: 0px auto;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grey-text {
+  color: #A6A6A6;
+  text-align: center;
+}
+
+.contact_forms {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.forms {
+  margin: 0px auto;
+  background-color: whitesmoke;
+  width: 1170px;
+  height: 986px;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 70px;
+  gap: 33px;
+}
+
+.form_field {
+  gap: 8px;
+}

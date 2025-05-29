@@ -1,0 +1,45 @@
+
+/* hero */
+.hero {
+  width: 1920px;
+  height: 743px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #ffffff;
+}
+
+.hero__title {
+  width: 768px;
+  height: 315px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 109%;
+  letter-spacing: 0.02em;
+}
+
+.hero__subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  width: 562px;
+  height: 56px;
+  text-align: center;
+  line-height: 142%;
+}
+
+.hero__btn {
+  width: 118px;
+  height: 33.5px;
+  padding: 5.5px 20px;
+  border-radius: 10px;
+  background-color: white;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  word-wrap: break-word;
+}
